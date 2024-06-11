@@ -1,0 +1,35 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.item-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    height: 24px;
+}
+
+.item-edit {
+    background-image: url("./img/edit.png");
+}
+
+.item-edit,
+.item-delete {
+    display: block;
+    width: 24px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.item-edit:hover, .item-delete:hover {
+    opacity: 0.5;
+}
+
+.item-delete {
+    background-image: url("./img/delete.png");
+}

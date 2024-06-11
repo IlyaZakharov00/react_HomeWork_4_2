@@ -1,0 +1,21 @@
+.addSteps-form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.form-input {
+    height: 100%;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.form-label {
+    position: absolute;
+    top: -30px;
+}

@@ -1,0 +1,29 @@
+.train-table-container {
+    width: 500px;
+}
+
+.train-label-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.allTrain-container {
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 5% 0;
+    margin: auto;
+}
+
+.train-item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.train-item:not(:last-child) {
+    margin-bottom: 20px;
+}
